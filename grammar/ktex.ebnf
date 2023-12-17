@@ -1,0 +1,11 @@
+(* KTex grammar (not strict) *)
+
+Document = Block* EOF
+
+Block = TextBlock
+
+TextBlock = (TextLine '\n')+
+
+TextLine = TextLineElement+
+
+TextLineElement = WS | Punctuation | Word

@@ -1,0 +1,1 @@
+export { wordConsumer } from "./wordConsumer";
