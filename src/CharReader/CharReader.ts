@@ -1,7 +1,7 @@
 export interface CharReader {
-  consume(k?: number): string;
+  consume(): number;
 
-  seek(k?: number): string;
+  seek(k?: number): number;
 
   hasNext(): boolean;
 }

@@ -1,1 +1,2 @@
-export { CharReader } from "./CharReader";
+export type { CharReader } from "./CharReader";
+export { StringReader } from "./StringReader";
